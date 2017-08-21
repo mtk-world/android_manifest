@@ -391,7 +391,7 @@
  <!-- DU REPOS -->
  <!-- general -->
  <project path="manifest" name="android_manifest" remote="du" revision="m" />
- <project path="build" name="android_build" remote="du" revision="m" >
+ <project path="build" name="android_build" remote="mtk-world" revision="m" >
  <copyfile src="core/root.mk" dest="Makefile" />
  </project>
  <project path="art" name="android_art" remote="du" revision="m" />
