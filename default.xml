@@ -12,6 +12,9 @@
  <remote  name="du"
           fetch="https://github.com/DirtyUnicorns/"
           review="gerrit.dirtyunicorns.com" />
+ 
+   <remote  name="mtk-world"
+           fetch="https://github.com/mtk-world" />
 
  <default revision="refs/tags/android-6.0.1_r68"
           remote="aosp"
@@ -398,21 +401,21 @@
  <project path="external/changeloglib" name="android_external_changeloglib" remote="du" revision="m" />
  <project path="external/DUtils" name="android_external_DUtils" remote="du" revision="m" />
  <project path="external/busybox" name="android_external_busybox" remote="du" revision="m" />
- <project path="external/sepolicy" name="android_external_sepolicy" remote="du" revision="m" />
+ <project path="external/sepolicy" name="android_external_sepolicy" remote="mtk-world" revision="m" />
  <project path="system/bt" name="android_system_bt" remote="du" revision="m" />
- <project path="system/core" name="android_system_core" remote="du" revision="m" />
+ <project path="system/core" name="android_system_core" remote="mtk-world" revision="m" />
  <project path="system/extras" name="android_system_extras" remote="du" revision="m" />
  <project path="system/media" name="android_system_media" remote="du" revision="m" />
- <project path="system/netd" name="android_system_netd" remote="du" revision="m" />
+ <project path="system/netd" name="android_system_netd" remote="mtk-world" revision="m" />
  <project path="system/vold" name="android_system_vold" remote="du" revision="m" />
 
  <!--frameworks-->
- <project path="frameworks/av" name="android_frameworks_av" remote="du" revision="m" />
- <project path="frameworks/base" name="android_frameworks_base" remote="du" revision="m" />
- <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="m" />
+ <project path="frameworks/av" name="android_frameworks_av" remote="mtk-world" revision="m" />
+ <project path="frameworks/base" name="android_frameworks_base" remote="mtk-world" revision="m" />
+ <project path="frameworks/native" name="android_frameworks_native" remote="mtk-world" revision="m" />
  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="du" revision="m" />
  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="du" revision="m" />
- <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="m" />
+ <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="mtk-world" revision="m" />
  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="du" revision="m" />
  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="du" revision="m" />
  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" revision="m" />
@@ -422,7 +425,7 @@
  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="du" revision="m" />
  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="m" />
  <project path="hardware/invensense" name="android_hardware_invensense" remote="du" revision="m" />
- <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="m" />
+ <project path="hardware/libhardware" name="android_hardware_libhardware" remote="mtk-world" revision="m" />
  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="m" />
  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="du" revision="m" />
  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="m" />
